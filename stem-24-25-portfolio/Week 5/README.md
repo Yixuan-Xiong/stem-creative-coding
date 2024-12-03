@@ -5,8 +5,6 @@ This week, I aimed to explore a function to return the current FFT magnitudes wh
 ### **Error**
 Using the file (week5-online-fft) provided by my instructor as a foundation, I combined it with concepts from (week 8) to implement gradient color transitions. However, I encountered the error: AttributeError: 'MySketch' object has no attribute 'number_lines'. This happened because the file didn't explicitly define `number_lines`. Upon investigating, I realized the issue stemmed from the use of `t = bin_num / (self.number_lines - 1)`. To fix this, I needed to explicitly define `self.number_lines` in the setup function.
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/545427ad-6e43-4007-adb0-7ed8fc3288a7)
-
 ```python
 def setup(self):
     self.number_lines = 50
