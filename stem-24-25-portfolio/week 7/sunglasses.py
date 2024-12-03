@@ -12,8 +12,8 @@ class MySketch:
     def setup(self):
         print("setup")
         self.camera = cv2.VideoCapture(0)  # Initialize the camera
-        self.face_cascade = cv2.CascadeClassifier("week7/data/haarcascade_frontalface_default.xml")  # Load the face detection model
-        self.sunglasses_img = cv2.imread("week7/images/sunglasses.png", cv2.IMREAD_UNCHANGED)  # Load sunglasses image
+        self.face_cascade = cv2.CascadeClassifier("stem-24-25-portfolio\week 7\data\haarcascade_frontalface_default.xml")  # Load the face detection model
+        self.sunglasses_img = cv2.imread("stem-24-25-portfolio\week 7\images\sunglasses.png", cv2.IMREAD_UNCHANGED)  # Load sunglasses image
 
     def draw(self):
         success, camera_feed = self.camera.read()  # Capture a frame from the camera

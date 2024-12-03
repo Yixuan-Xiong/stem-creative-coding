@@ -13,14 +13,14 @@ class MySketch:
     def setup(self):
         print("setup")
         self.camera = cv2.VideoCapture(0)  # Initialize the camera
-        self.face_cascade = cv2.CascadeClassifier("week7/data/haarcascade_frontalface_default.xml")  # Load the face detection model
-        self.sunglasses_img = cv2.imread("week7/images/sunglasses.png", cv2.IMREAD_UNCHANGED)  # Load sunglasses image
+        self.face_cascade = cv2.CascadeClassifier("stem-24-25-portfolio\week 7\data\haarcascade_frontalface_default.xml")  # Load the face detection model
+        self.sunglasses_img = cv2.imread("stem-24-25-portfolio\week 7\images\sunglasses.png", cv2.IMREAD_UNCHANGED)  # Load sunglasses image
 
         # Load bill images
         self.bill_images = [
-            cv2.imread("week7/images/money1.png", cv2.IMREAD_UNCHANGED),
-            cv2.imread("week7/images/money2.png", cv2.IMREAD_UNCHANGED),
-            cv2.imread("week7/images/money3.png", cv2.IMREAD_UNCHANGED),
+            cv2.imread("stem-24-25-portfolio\week 7\images\money1.png", cv2.IMREAD_UNCHANGED),
+            cv2.imread("stem-24-25-portfolio\week 7\images\money2.png", cv2.IMREAD_UNCHANGED),
+            cv2.imread("stem-24-25-portfolio\week 7\images\money3.png", cv2.IMREAD_UNCHANGED),
         ]
 
         num_bills = 30  # Number of bills

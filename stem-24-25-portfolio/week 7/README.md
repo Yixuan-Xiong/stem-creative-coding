@@ -51,6 +51,7 @@ The implementation required handling the alpha channel (transparency) correctly.
 
 [[View Code](./sunglasses.py)]
 
+[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/149f1e95-4f92-4841-afbe-285dd77b85ce)
 
 ## **Falling Bills** ##  
 To enhance the augmented reality experience, falling money bills were added as a background effect. Different bill styles and falling speeds create a dynamic visual experience.
@@ -115,6 +116,8 @@ After google, I learned that the solution involves using `cv2.cvtColor` to conve
 
 ## **Display**
 Here's my final code and presentation: [[View Code](./rich_guy.py)]
+
+[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/c7c06df4-8eef-47b7-8cfc-37932531f317)
 
 ## **Conclusions**
 This Week 7 project combines face detection and augmented reality to create a fun and visually engaging experience. Using Haar cascades, the program detects faces in a live camera feed and dynamically resizes sunglasses to fit perfectly on each face. To add a playful touch, the background features falling money bills that are randomly styled, positioned, and dropped at different speeds, creating a lively and dynamic visual effect.
