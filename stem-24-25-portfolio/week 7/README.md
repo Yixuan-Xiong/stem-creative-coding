@@ -12,7 +12,7 @@ self.sunglasses_img = cv2.imread("week7/images/sunglasses.png", cv2.IMREAD_UNCHA
 ```
 
 ## **Steps to Overlay Sunglasses** ##  
-**1.Resize the Sunglasses**    
+**1. Resize the Sunglasses**    
 The system uses the Haar Cascade model to detect faces:  
 
 ```python
@@ -29,7 +29,7 @@ sunglasses_resized = cv2.resize(
 )
 ```
 
-**2.Position**      
+**2. Position**      
 · The width of the sunglasses is set to match the face's width.      
 · The aspect ratio is maintained for realism.      
 
@@ -38,7 +38,7 @@ eyes_y = face_y + int(face_h * 0.3) - 60
 ```
 Initially, detecting the sunglasses to the eyes was a challenge. Through testing and adjustment, the sunglasses was in a more natural placement.
 
-**3.Overlay**  
+**3. Overlay**  
 The `.png` image of the sunglasses contains transparency. To ensure only the non-transparent pixels are drawn, we use pixel-by-pixel checks:    
 
 ```python
@@ -89,7 +89,7 @@ for x, y in zip(x_positions, y_positions):
     })
 ```
 
-**2.Movement**    
+**2. Movement**    
 The background includes falling bills randomly positioned and moving at different speeds. This effect enhances the augmented experience.  
 
 ```python
@@ -98,7 +98,7 @@ if bill["y"] > dot.height:
     # Reset to the top
     bill["y"] = random.randint(-dot.height, 0)  
 ```
-**3.Overlay**    
+**3. Overlay**    
 Similar to the sunglasses overlay, non-transparent pixels of the bills are drawn onto the webcam feed.  
 
 ```python

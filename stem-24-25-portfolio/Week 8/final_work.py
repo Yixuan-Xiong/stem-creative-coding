@@ -106,7 +106,7 @@ class MySketch:
         # Set background based on game state
         if self.success:
             # Green background for success
-            dot.background(dot.white)
+            dot.background((0, 255, 0))
             return
         elif self.game_over:
             # Red background for collision
@@ -114,7 +114,7 @@ class MySketch:
             return
         else:
             # White background for normal
-            dot.background((255, 255, 255))  
+            dot.background(dot.white)  
 
         # Draw the maze
         self.draw_maze()
