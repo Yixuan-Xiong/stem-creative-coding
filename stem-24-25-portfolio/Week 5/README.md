@@ -58,7 +58,7 @@ After combining the two features, I realized I couldn't fully control the lines 
 ## **Display**
 Here's my final code and presentation: [[View Code](./final_work.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/3114c049-6ef5-4556-9f7b-07537310a992)
+[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/497ccbc9-ae51-4be5-afb6-6eb3a83024e0)
 
 ## **Conclusions**
 This week, I worked on enhancing FFT-based audio visualizations with gradient color transitions, interactive features, and simulated volume changes. The final result was visually dynamic and interactive, but the process highlighted some challenges, especially in balancing mouse control with automated behavior.
