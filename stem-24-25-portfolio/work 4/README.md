@@ -1,10 +1,10 @@
-# **Week 8**
+# **Work 4**
 This week, I learned the concepts from Week 8 (file: week-lerp-mouse) to design a maze game. The maze will be drawn using the cv2 module, and the player will use the mouse to play it.
 
 ## **Drawing the Maze**
 Using the cv2 module, I first draw a simple maze and highlight the exit with a distinct color for better visibility. [[View Code](./draw_maze.py)]
 
-![draw maze](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/c18b3fc6-5602-4913-a017-214e5c57662d)
+![draw maze](https://github.com/user-attachments/assets/770327cd-222a-4c7c-bb51-8ffd635befc7)
 
 ```python
 def draw_maze(self):
@@ -17,7 +17,7 @@ def draw_maze(self):
 ## **Controlling the Ball**
 Using the functionality from Week 8 `self.pos[0] = int(self.pos[0] + (dot.mouse_x - self.pos[0]) * self.t)`, I create the ball to follow the mouse movement.[[View Code](./ball_maze.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/518c5679-f5ab-4d2c-ae3e-4f4fb7df911e)
+[](https://github.com/user-attachments/assets/444e9b2c-f263-4884-85bf-02acb9a9b14d)
 
 ```python
 def setup(self):
@@ -94,11 +94,11 @@ Here's my final code and presentation: [[View Code](./final_work.py)]
 
 **Win**:
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/1ce4626b-acfa-460a-befc-7968ec90d0d3)
+[](https://github.com/user-attachments/assets/32d4837d-d55b-4e94-af8c-3152635cd855)
 
 **False**:
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/979330a8-cec9-4b07-b12a-4c0a85924867)
+[](https://github.com/user-attachments/assets/7a6df383-5987-4477-b8c6-c18d335d2f1f)
 
 ## **Conclusions**
 This maze game project demonstrates the effective application of Week 8 concepts, particularly I use mouse interpolation to create a functional and interactive experience. The development process involved several layers of refinement, including maze design, smooth ball movement, and collision and success detection logic. A key takeaway from testing the collision detection is the importance of thorough consideration of all edge cases, as overlooking details can lead to unexpected behavior. While the final implementation achieved its intended goals, I have some additional reflections.
