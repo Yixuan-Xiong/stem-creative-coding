@@ -1,4 +1,4 @@
-# **Week 7**
+# **Work 3**
 This project builds upon the concepts learned in Week 7, particularly from the week7-face-filter file, to create an interactive augmented reality experience. The system utilizes a camera feed to detect faces, overlay sunglasses on detected faces, and introduce falling money bills in the background for a fun and immersive effect.
 
 ## **Face Detection with Overlay**
@@ -51,7 +51,7 @@ The implementation required handling the alpha channel (transparency) correctly.
 
 [[View Code](./sunglasses.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/149f1e95-4f92-4841-afbe-285dd77b85ce)
+[](https://github.com/user-attachments/assets/5642c23b-50b8-454b-a3b1-fcdde0f38dd4)
 
 ## **Falling Bills** ##    
 To enhance the augmented reality experience, falling money bills were added as a background effect. Different bill styles and falling speeds create a dynamic visual experience.  
@@ -117,7 +117,7 @@ After google, I learned that the solution involves using `cv2.cvtColor` to conve
 ## **Display**  
 Here's my final code and presentation: [[View Code](./rich_guy.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/c7c06df4-8eef-47b7-8cfc-37932531f317)
+[](https://github.com/user-attachments/assets/cf881692-1db0-4e47-a183-272bcbb9e411)
 
 ## **Conclusions**  
 This Week 7 project combines face detection and augmented reality to create a fun and visually engaging experience. Using Haar cascades, the program detects faces in a live camera feed and dynamically resizes sunglasses to fit perfectly on each face. To add a playful touch, the background features falling money bills that are randomly styled, positioned, and dropped at different speeds, creating a lively and dynamic visual effect.  

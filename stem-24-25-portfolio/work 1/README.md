@@ -1,4 +1,4 @@
-# **Week 3**
+# **Work 1**
 This week, I aim to explore the effects of Alpha trails by experimenting with their formation in various directions and colors.  
 Additionally, I plan to combine these techniques to create visually dynamic particles, emphasizing smooth particle motion, dynamic behavior, and aesthetically captivating trails.  
 
