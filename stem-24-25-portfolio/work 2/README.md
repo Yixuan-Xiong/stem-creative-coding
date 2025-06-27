@@ -1,4 +1,4 @@
-# **Week 5**
+# **Work 2**
 This week, I aimed to explore a function to return the current FFT magnitudes while adding color and interaction variations to enhance this basic feature.
 
 ## **Gradient Color Changes**
@@ -17,12 +17,12 @@ def draw(self):
 ```
 This mistake taught me the importance of definitions. While the problem was eventually fixed, it underscored the value of anticipating dependencies and clearly documenting variables and their roles within the system. After fixing this error, [[View Code](./change_color.py)] achieved colour change from left to right from red to blue.
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/2833edd9-a643-449f-b384-5cac88d806a8)
+[](https://github.com/user-attachments/assets/0944bc42-dc6a-44db-b398-2a221c4f85fa)
 
 ## **More interaction**
 To make the interaction more engaging, I explored additional features, including using the mouse to control the height of the FFT lines. The idea was to make the lines shorter when moving the mouse left and taller when moving it right, adding a fun dynamic element to the visualization. [[View Code](./lines_mouse.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/a1bcfe74-4f5c-4727-9f41-b450fdd609cf)
+[](https://github.com/user-attachments/assets/24fd9784-a49d-403e-ad72-9233445f81df)
 
 ```python
 def draw(self):
@@ -33,8 +33,6 @@ The line `height_mouse = 50 + int(dot.mouse_x / dot.width * 150)` was generated 
 
 ## **Simulated Volume Changes**
 Next, I wanted to make the interaction between visuals and music more interactive. Initially, I planned to control the height of the lines with the mouse and tie it directly to volume levels. Unfortunately, I wasn't able to achieve this. Instead, I opted to simulate volume fluctuations visually using the math module to generate a sine wave for smooth oscillations.
-
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/ee17ab9a-c2a4-471b-a1e5-163534d46569)
 
 ```python
 def draw(self):
@@ -58,7 +56,7 @@ After combining the two features, I realized I couldn't fully control the lines 
 ## **Display**
 Here's my final code and presentation: [[View Code](./final_work.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/497ccbc9-ae51-4be5-afb6-6eb3a83024e0)
+[](https://github.com/user-attachments/assets/68b74ce8-9df9-4602-a6e0-0c15650176ac)
 
 ## **Conclusions**
 This week, I worked on enhancing FFT-based audio visualizations with gradient color transitions, interactive features, and simulated volume changes. The final result was visually dynamic and interactive, but the process highlighted some challenges, especially in balancing mouse control with automated behavior.
