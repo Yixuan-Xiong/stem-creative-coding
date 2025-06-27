@@ -11,11 +11,19 @@ This repository is a curated collection of creative coding mini-projects built u
 | Work 3   | Face Filter Augmented Reality                 | Face detection + sunglasses overlay + falling money animation using webcam input                | [View README](work 3/README.md) |
 | Work 4   | Interactive Maze Game                         | A mouse-controlled maze experience built with `cv2`, inspired by interpolation techniques       | [View README](work 4/README.md) |
 
+<<<<<<< HEAD
 
 ## Technologies Used. 
+=======
+## Technologies Used  
+>>>>>>> f5141ed1dd013d33edd72e4a003fce326581fe61
 
 - Python 3  
 - OpenCV (cv2)  
 - NumPy  
 - Pyaudio / FFT  
+<<<<<<< HEAD
 - Interactive animation & game logic  
+=======
+- Interactive animation and game logic  
+>>>>>>> f5141ed1dd013d33edd72e4a003fce326581fe61
