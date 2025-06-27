@@ -5,7 +5,7 @@ Additionally, I plan to combine these techniques to create visually dynamic part
 ## **Mouse-Controlled Interaction**
 Inspired by the (week3-final-snow) file, I implemented a mouse-controlled circle that leaves a trail as it moves. The trailing effect is created using a semi-transparent layer `cover = dot.get_layer()`, which gradually fades the older trail while maintaining the most recent movement. This implementation demonstrates basic user interaction and motion, achieving smooth and intuitive mouse-controlled behavior. [[View Code](./circle_mouse.py)]
 
-<video src="media/circle.mouse.mp4" controls width="600"></video>
+[](https://github.com/user-attachments/assets/5db05b37-8e1e-42e4-8726-e3524dea32e0)
 
 ```python
 def draw(self):
