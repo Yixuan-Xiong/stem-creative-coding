@@ -24,7 +24,7 @@ def draw(self):
 ## **Gradient Color Changes**
 To enhance visual appeal, I referred to the (week8-lerp-rgb) file, implementing gradient-based color interpolation. The color of the circle transitions smoothly based on the mouse's horizontal position, creating a dynamic and engaging effect. [[View Code](./change_color.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/b6f47824-2e2a-47f0-96b0-4936487d34d0)
+[](https://github.com/user-attachments/assets/493deba7-e99b-4f6d-9183-ca125c09434b)
 
 ```python
 def setup(self):
@@ -46,7 +46,7 @@ The basic effect is now realised, but it's not visually obvious. I considered ag
 ## **Adding Particles**
 To enable particles to disperse in all directions and have individual life cycles, I defined a `Particle` class to manage the behavior of each particle. This class includes properties such as position, speed, velocity, color, and number, allowing for detailed control over their movement and appearance. [[View Code](./add_particle.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/fc14863b-84f5-4f90-a6da-61e788ab803c)
+[](https://github.com/user-attachments/assets/0f741604-42e4-4fac-8796-f550b668b3d0)
 
 ```python
 def __init__(self):
@@ -115,7 +115,7 @@ After I added a setting for the particle lifecycle, particles now fade and die g
 ## **Display**
 Here's my final code and presentation: [[View Code](./final_work.py)]
 
-[](https://git.arts.ac.uk/23040253/Yixuan_Xiong_portfolio-STEM/assets/1195/3114c049-6ef5-4556-9f7b-07537310a992)
+[](https://github.com/user-attachments/assets/3c86bdad-3b7f-45c0-a0af-0ac2a5ae16ed)
 
 ## **Conclusions**
 This week, I focused on combining Alpha trails with gradient color transitions while exploring visually dynamic particle effects. The initial results were encouraging: features like mouse-controlled trails and smooth gradients showed basic interactivity well. However, as the system became more complex, I faced a key problem: the lack of a lifecycle for the particles caused them to stay on the screen indefinitely, resulting in a cluttered and messy visual experience that didn’t match my original aim.
