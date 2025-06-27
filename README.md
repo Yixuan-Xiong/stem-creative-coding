@@ -1,29 +1,21 @@
 # STEM Creative Coding Experiments
 
-This repository is a curated collection of creative coding mini-projects built using Python, OpenCV, and interactive media techniques. Each work explores a different computational art idea — from particle simulations to audio-reactive visuals and augmented reality.  
+This repository is a curated collection of creative coding mini-projects built using Python, OpenCV, and multimedia techniques. Each work explores a unique concept such as particle motion, audio interaction, augmented reality, and game logic.    
 
-## Project Overview
+## Project Overview  
 
-| Work No. | Title                                         | Description                                                                                     | Link                                   |
-|----------|-----------------------------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------|
-| Work 1   | Alpha Trail Particle System                   | Dynamic particles with directional motion and fading alpha trails                               | [View README](work 1/README.md) |
-| Work 2   | Audio-Reactive Visualization with FFT         | Visualizes real-time sound frequencies with FFT, color mapping, and interactivity               | [View README](work 2/README.md) |
-| Work 3   | Face Filter Augmented Reality                 | Face detection + sunglasses overlay + falling money animation using webcam input                | [View README](work 3/README.md) |
-| Work 4   | Interactive Maze Game                         | A mouse-controlled maze experience built with `cv2`, inspired by interpolation techniques       | [View README](work 4/README.md) |
+| Work No. | Title                                 | Description                                                       | Link                                       |
+|----------|---------------------------------------|-------------------------------------------------------------------|--------------------------------------------|
+| Work 1   | Alpha Trail Particle System           | Dynamic particles with alpha-based trails and motion experiments | [View README](work%201/README.md)          |
+| Work 2   | Audio-Reactive Visualization with FFT | Real-time audio FFT visualizer with color & interaction          | [View README](work%202/README.md)          |
+| Work 3   | Face Filter Augmented Reality         | Overlay filters + animation on live webcam input                 | [View README](work%203/README.md)          |
+| Work 4   | Interactive Maze Game                 | Mouse-controlled pathfinding with collision detection             | [View README](work%204/README.md)          |
 
-<<<<<<< HEAD
 
-## Technologies Used. 
-=======
 ## Technologies Used  
->>>>>>> f5141ed1dd013d33edd72e4a003fce326581fe61
 
 - Python 3  
-- OpenCV (cv2)  
+- OpenCV  
 - NumPy  
 - Pyaudio / FFT  
-<<<<<<< HEAD
-- Interactive animation & game logic  
-=======
-- Interactive animation and game logic  
->>>>>>> f5141ed1dd013d33edd72e4a003fce326581fe61
+- Creative visual techniques  
